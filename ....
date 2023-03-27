@@ -1,0 +1,83 @@
+#include"stdio.h"
+
+void Calculate(){
+
+float a=0;
+
+float b=0;
+
+printf("Input first number");
+
+scanf("%f",&a);
+
+printf("Input second number");
+
+scanf("%f",&b);
+
+printf("a+b=%f",a+b);
+
+printf("a-b=%f",a-b);
+
+printf("a*b=%f",a*b);
+
+if(b!=0){
+
+printf("a/b=%f",a/b);
+
+}
+
+else{
+
+printf("The divisor can not be zero");
+
+}
+
+}
+
+求一些供C语言初学者看的源代码
+
+输入十个数,求出最大数.
+
+#include
+
+double max_number(double x[])
+
+{
+
+double max=x[0];
+
+int i;
+
+for(i=1;i<=9;i++)
+
+{
+
+if(max{
+
+max=x[i];
+
+}
+
+}
+
+return max;
+
+}
+
+void main()
+
+{
+
+double a[10];
+
+int i;
+
+printf("请输入十个数:\n");
+
+for(i=0;i<=9;i++)
+
+{
+
+scanf("%lf,",&a[i]);
+
+}
